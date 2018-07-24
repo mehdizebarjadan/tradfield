@@ -1,18 +1,244 @@
+// .navbar .nav-link {
+//   font-size: 14px;
+//   text-transform: uppercase;
+//   padding-left: 1rem !important;
+//   padding-right: 1rem !important;
+// }
+
+// .navbar .nav-item.active {
+//   border-left: #444 3px solid;
+// }
+
+// .logo {
+//   height: 40px;
+// }
+
+// .bg-grey {
+//   background-color: #70ad46;
+// }
+@import url('https://fonts.googleapis.com/css?family=Jura|Marcellus+SC|Orbitron|Ubuntu|Roboto');
+
+// variables
+$light-blue: #4473c5;
+$gray: #bebdc0;
+$green: #70ad46;
+
+$font1: Helvetica, sans-serif;
+$font2: 'Roboto', sans-serif;
+
+// font-family: 'Orbitron', sans-serif;
+// font-family: 'Marcellus SC', serif;
+// font-family: 'Ubuntu', sans-serif;
+// font-family: 'Jura', sans-serif;
+// font-family: Helvetica, sans-serif;
+// font-family: 'Roboto', sans-serif;
+
+.bg-red {
+  background-color: red;
+}
+.bg-grey {
+  background-color: $gray;
+}
+
 .navbar .nav-link {
-  font-size: 14px;
-  text-transform: uppercase;
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
+  // font-size: 14px;
+  // text-transform: uppercase;
+  // padding-left: 1rem !important;
+  // padding-right: 1rem !important;
+  // border: 2px solid black;
 }
 
 .navbar .nav-item.active {
-  border-left: #444 3px solid;
+  border-left: $green 3px solid;
 }
 
-.logo {
-  height: 40px;
+.brd {
+  // height: 120px;
+  border: 2px solid black;
 }
 
-.bg-grey {
-  background-color: #70ad46;
+.logo-image {
+  background: url('../../../assets/img/logo.jpeg');
+  background-size: cover;
+  // border: 2px solid black;
+  height: 60px;
+  width: 60px;
+  // margin-right: 0rem;
+}
+
+// .navbar {
+//   padding: 0.5rem 1rem !important;
+// }
+
+.navbar .nav-link {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: $font2;
+}
+.navbar {
+  padding: 0rem 1rem;
+}
+
+.navbar-brand {
+  // background: #ad10d4;
+  // width: 100%;
+}
+
+h3 {
+  color: $light-blue;
+  font-family: $font1;
+  font-size: 1.6rem;
+}
+
+h6 {
+  font-family: $font2;
+  font-size: 1.2rem;
+}
+
+.col.align-self-center {
+  padding-left: 1px;
+}
+
+/* Small devices (landscape phones) */
+
+@media (min-width: 576px) {
+  .navbar-brand {
+    // background: red;
+    // width: 100%;
+  }
+
+  // .logo-image {
+  //   margin-right: 0.5rem;
+  //   height: 60px;
+  //   width: 60px;
+  // }
+
+  // h3 {
+  //   color: $light-blue;
+  //   font-family: $font1;
+  //   font-size: 1.6rem;
+  // }
+
+  // h6 {
+  //   font-family: $font2;
+  //   font-size: 1.2rem;
+  // }
+
+  // .navbar .nav-link {
+  //   font-size: 0.9rem;
+  //   text-transform: uppercase;
+  //   // padding-left: 1rem !important;
+  //   // padding-right: 1rem !important;
+  // }
+  // .navbar {
+  //   padding: 0rem 1rem;
+  // }
+}
+
+/* Medium devices (tablets) */
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    // background: #33b4ff;
+  }
+
+  // .logo-image {
+  //   margin-right: 0.5rem;
+  //   height: 60px;
+  //   width: 60px;
+  // }
+
+  // h3 {
+  //   color: $light-blue;
+  //   font-family: $font1;
+  //   font-size: 1.6rem;
+  // }
+
+  // h6 {
+  //   font-family: $font2;
+  //   font-size: 1.2rem;
+  // }
+
+  // .navbar .nav-link {
+  //   font-size: 0.9rem;
+  //   text-transform: uppercase;
+  //   // padding-left: 1rem !important;
+  //   // padding-right: 1rem !important;
+  // }
+  // .navbar {
+  //   padding: 0rem 1rem;
+  // }
+}
+
+/* Large devices (desktops) */
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    // background: green;
+  }
+
+  .logo-image {
+    margin-right: 0.5rem;
+    height: 60px;
+    width: 60px;
+  }
+
+  h3 {
+    color: $light-blue;
+    font-family: $font1;
+    font-size: 1.6rem;
+  }
+
+  h6 {
+    font-family: $font2;
+    font-size: 1.3rem;
+  }
+
+  // .navbar .nav-link {
+  //   font-size: 1rem;
+  //   text-transform: uppercase;
+  //   padding-left: 1rem;
+  //   padding-right: 1rem;
+  // }
+  // .navbar {
+  //   padding: 0rem 1rem;
+  // }
+}
+
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1200px) {
+  .navbar-brand {
+    // background: yellow;
+  }
+
+  .logo-image {
+    margin-right: 0.5rem !important;
+    height: 60px;
+    width: 60px;
+  }
+
+  h3 {
+    color: $light-blue;
+    font-family: $font1;
+    font-size: 1.6rem;
+  }
+
+  h6 {
+    font-family: $font2;
+    font-size: 1.3rem;
+  }
+
+  // .navbar .nav-link {
+  //   font-size: 1rem;
+  //   text-transform: uppercase;
+  //   padding-left: 1rem !important;
+  //   padding-right: 1rem !important;
+  // }
+
+  // .navbar {
+  //   padding: 0rem 1rem;
+  // }
 }

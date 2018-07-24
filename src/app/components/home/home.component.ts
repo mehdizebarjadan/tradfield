@@ -11,10 +11,7 @@ declare var $: any;
 export class HomeComponent implements OnInit {
   constructor() {}
 
-  ngOnInit() {
-    // Get the current year for the copyright
-    $('#year').text(new Date().getFullYear());
-
+  ngOnInit() {    
     // Configure Slider
     $('.carousel').carousel({
       interval: 6000,

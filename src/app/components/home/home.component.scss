@@ -1,34 +1,50 @@
-// body {
-//   overflow-x: hidden;
-// }
+@import url('https://fonts.googleapis.com/css?family=Jura|Marcellus+SC|Orbitron|Ubuntu|Roboto');
+
+// variables
+$font1: Helvetica, sans-serif;
+$font2: 'Roboto', sans-serif;
+
+div {
+  font-family: $font2;
+}
 
 .carousel-item {
-  height: 650px;
+  height: 450px;
+}
+
+.carousel-caption {
+  transform: translateY(-50%);
+  bottom: 0p;
+  top: 50%;
 }
 
 .carousel-image-1 {
   background: url('../../../assets/img/image1.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 .carousel-image-2 {
   background: url('../../../assets/img/image11.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 .carousel-image-3 {
   background: url('../../../assets/img/image12.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 #home-heading {
   position: relative;
-  min-height: 200px;
-  background: url('../../../assets/img/lights1.jpg');
+  min-height: 260px;
+  background: url('../../../assets/img/lights2.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
   color: #fff;
+  background-position: center;
 }
 
 .dark-overlay {
@@ -37,7 +53,9 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  // background: url('../../../assets/img/image13.jpg');
+  background: #000000b3;
+  opacity: 0.9;
 }
 
 #video-play {
@@ -46,7 +64,8 @@
   background: url('../../../assets/img/image13.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: 0 100px;
+  // background-position: 0 100px;
+  background-position: center;
   text-align: center;
   color: #fff;
   background-size: cover;
@@ -74,3 +93,7 @@
   background: #000;
   color: #fff;
 }
+
+// #home-icons {
+//   font-family: $font2;
+// }

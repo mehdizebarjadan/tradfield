@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Jura|Marcellus+SC|Orbitron|Ubuntu|Roboto');
+
+// variables
+$font1: Helvetica, sans-serif;
+$font2: 'Roboto', sans-serif;
+
+div {
+  font-family: $font2;
+}
+
+img {
+  // width: 460px;
+  height: 460px;
+  // background: cover;
+}
+
+.card {
+  width: 460px;
+}

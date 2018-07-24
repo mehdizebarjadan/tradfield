@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Jura|Marcellus+SC|Orbitron|Ubuntu|Roboto');
+
+// variables
+$font1: Helvetica, sans-serif;
+$font2: 'Roboto', sans-serif;
+
+div {
+  font-family: $font2;
+}
+
 #page-header {
   height: 200px;
   background: url('../../../assets/img/image10.png');
-  background-position: 0 -360px;
+  // background-position: 0 00px;
+  background-position: center;
   background-attachment: fixed;
   color: #fff;
   border-bottom: 1px #eee solid;
